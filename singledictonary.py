@@ -1,0 +1,13 @@
+contacts1={
+    "Anu":"9876543210",
+    "Teena":"8765432109"
+}
+contacts2={
+    "John":"7654321098",
+    "Priya":"6543210987"
+}
+print("contacts1:",contacts1)
+print("contacts2:",contacts2)
+merge_contacts=contacts1.copy()
+merge_contacts.update(contacts2)
+print("merge_contacts:",merge_contacts)
